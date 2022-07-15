@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3A0CDFB28815F7D00E8771B /* RE100DashBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0CDFA28815F7D00E8771B /* RE100DashBoardApp.swift */; };
+		A3A0CDFD28815F7D00E8771B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0CDFC28815F7D00E8771B /* ContentView.swift */; };
+		A3A0CDFF28815F7E00E8771B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A0CDFE28815F7E00E8771B /* Assets.xcassets */; };
+		A3A0CE0228815F7E00E8771B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A0CE0128815F7E00E8771B /* Preview Assets.xcassets */; };
+		A3A0CE0C28815F7E00E8771B /* RE100DashBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0CE0B28815F7E00E8771B /* RE100DashBoardTests.swift */; };
+		A3A0CE1828815F7E00E8771B /* RE100DashBoardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0CE1728815F7E00E8771B /* RE100DashBoardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3A0CE0828815F7E00E8771B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3A0CDEF28815F7D00E8771B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3A0CDF628815F7D00E8771B;
+			remoteInfo = RE100DashBoard;
+		};
+		A3A0CE1228815F7E00E8771B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3A0CDEF28815F7D00E8771B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3A0CDF628815F7D00E8771B;
+			remoteInfo = RE100DashBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3A0CDF728815F7D00E8771B /* RE100DashBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RE100DashBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A0CDFA28815F7D00E8771B /* RE100DashBoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RE100DashBoardApp.swift; sourceTree = "<group>"; };
+		A3A0CDFC28815F7D00E8771B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A3A0CDFE28815F7E00E8771B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3A0CE0128815F7E00E8771B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3A0CE0728815F7E00E8771B /* RE100DashBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RE100DashBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A0CE0B28815F7E00E8771B /* RE100DashBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RE100DashBoardTests.swift; sourceTree = "<group>"; };
+		A3A0CE1128815F7E00E8771B /* RE100DashBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RE100DashBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A0CE1528815F7E00E8771B /* RE100DashBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RE100DashBoardUITests.swift; sourceTree = "<group>"; };
+		A3A0CE1728815F7E00E8771B /* RE100DashBoardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RE100DashBoardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3A0CDF428815F7D00E8771B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A0CE0428815F7E00E8771B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A0CE0E28815F7E00E8771B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3A0CDEE28815F7D00E8771B = {
+			isa = PBXGroup;
+			children = (
+				A3A0CDF928815F7D00E8771B /* RE100DashBoard */,
+				A3A0CE0A28815F7E00E8771B /* RE100DashBoardTests */,
+				A3A0CE1428815F7E00E8771B /* RE100DashBoardUITests */,
+				A3A0CDF828815F7D00E8771B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3A0CDF828815F7D00E8771B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3A0CDF728815F7D00E8771B /* RE100DashBoard.app */,
+				A3A0CE0728815F7E00E8771B /* RE100DashBoardTests.xctest */,
+				A3A0CE1128815F7E00E8771B /* RE100DashBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3A0CDF928815F7D00E8771B /* RE100DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				A3A0CDFA28815F7D00E8771B /* RE100DashBoardApp.swift */,
+				A3A0CDFC28815F7D00E8771B /* ContentView.swift */,
+				A3A0CDFE28815F7E00E8771B /* Assets.xcassets */,
+				A3A0CE0028815F7E00E8771B /* Preview Content */,
+			);
+			path = RE100DashBoard;
+			sourceTree = "<group>";
+		};
+		A3A0CE0028815F7E00E8771B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3A0CE0128815F7E00E8771B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A3A0CE0A28815F7E00E8771B /* RE100DashBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3A0CE0B28815F7E00E8771B /* RE100DashBoardTests.swift */,
+			);
+			path = RE100DashBoardTests;
+			sourceTree = "<group>";
+		};
+		A3A0CE1428815F7E00E8771B /* RE100DashBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3A0CE1528815F7E00E8771B /* RE100DashBoardUITests.swift */,
+				A3A0CE1728815F7E00E8771B /* RE100DashBoardUITestsLaunchTests.swift */,
+			);
+			path = RE100DashBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3A0CDF628815F7D00E8771B /* RE100DashBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A0CE1B28815F7E00E8771B /* Build configuration list for PBXNativeTarget "RE100DashBoard" */;
+			buildPhases = (
+				A3A0CDF328815F7D00E8771B /* Sources */,
+				A3A0CDF428815F7D00E8771B /* Frameworks */,
+				A3A0CDF528815F7D00E8771B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RE100DashBoard;
+			productName = RE100DashBoard;
+			productReference = A3A0CDF728815F7D00E8771B /* RE100DashBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3A0CE0628815F7E00E8771B /* RE100DashBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A0CE1E28815F7E00E8771B /* Build configuration list for PBXNativeTarget "RE100DashBoardTests" */;
+			buildPhases = (
+				A3A0CE0328815F7E00E8771B /* Sources */,
+				A3A0CE0428815F7E00E8771B /* Frameworks */,
+				A3A0CE0528815F7E00E8771B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3A0CE0928815F7E00E8771B /* PBXTargetDependency */,
+			);
+			name = RE100DashBoardTests;
+			productName = RE100DashBoardTests;
+			productReference = A3A0CE0728815F7E00E8771B /* RE100DashBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3A0CE1028815F7E00E8771B /* RE100DashBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3A0CE2128815F7E00E8771B /* Build configuration list for PBXNativeTarget "RE100DashBoardUITests" */;
+			buildPhases = (
+				A3A0CE0D28815F7E00E8771B /* Sources */,
+				A3A0CE0E28815F7E00E8771B /* Frameworks */,
+				A3A0CE0F28815F7E00E8771B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3A0CE1328815F7E00E8771B /* PBXTargetDependency */,
+			);
+			name = RE100DashBoardUITests;
+			productName = RE100DashBoardUITests;
+			productReference = A3A0CE1128815F7E00E8771B /* RE100DashBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3A0CDEF28815F7D00E8771B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A3A0CDF628815F7D00E8771B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A3A0CE0628815F7E00E8771B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A3A0CDF628815F7D00E8771B;
+					};
+					A3A0CE1028815F7E00E8771B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A3A0CDF628815F7D00E8771B;
+					};
+				};
+			};
+			buildConfigurationList = A3A0CDF228815F7D00E8771B /* Build configuration list for PBXProject "RE100DashBoard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3A0CDEE28815F7D00E8771B;
+			productRefGroup = A3A0CDF828815F7D00E8771B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3A0CDF628815F7D00E8771B /* RE100DashBoard */,
+				A3A0CE0628815F7E00E8771B /* RE100DashBoardTests */,
+				A3A0CE1028815F7E00E8771B /* RE100DashBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3A0CDF528815F7D00E8771B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A0CE0228815F7E00E8771B /* Preview Assets.xcassets in Resources */,
+				A3A0CDFF28815F7E00E8771B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A0CE0528815F7E00E8771B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A0CE0F28815F7E00E8771B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3A0CDF328815F7D00E8771B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A0CDFD28815F7D00E8771B /* ContentView.swift in Sources */,
+				A3A0CDFB28815F7D00E8771B /* RE100DashBoardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A0CE0328815F7E00E8771B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A0CE0C28815F7E00E8771B /* RE100DashBoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3A0CE0D28815F7E00E8771B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A0CE1828815F7E00E8771B /* RE100DashBoardUITestsLaunchTests.swift in Sources */,
+				A3A0CE1628815F7E00E8771B /* RE100DashBoardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3A0CE0928815F7E00E8771B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3A0CDF628815F7D00E8771B /* RE100DashBoard */;
+			targetProxy = A3A0CE0828815F7E00E8771B /* PBXContainerItemProxy */;
+		};
+		A3A0CE1328815F7E00E8771B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3A0CDF628815F7D00E8771B /* RE100DashBoard */;
+			targetProxy = A3A0CE1228815F7E00E8771B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3A0CE1928815F7E00E8771B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3A0CE1A28815F7E00E8771B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3A0CE1C28815F7E00E8771B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RE100DashBoard/Preview Content\"";
+				DEVELOPMENT_TEAM = HN3RL67C46;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halogen.RE100DashBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3A0CE1D28815F7E00E8771B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RE100DashBoard/Preview Content\"";
+				DEVELOPMENT_TEAM = HN3RL67C46;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halogen.RE100DashBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3A0CE1F28815F7E00E8771B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halogen.RE100DashBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RE100DashBoard.app/RE100DashBoard";
+			};
+			name = Debug;
+		};
+		A3A0CE2028815F7E00E8771B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halogen.RE100DashBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RE100DashBoard.app/RE100DashBoard";
+			};
+			name = Release;
+		};
+		A3A0CE2228815F7E00E8771B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halogen.RE100DashBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RE100DashBoard;
+			};
+			name = Debug;
+		};
+		A3A0CE2328815F7E00E8771B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halogen.RE100DashBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RE100DashBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3A0CDF228815F7D00E8771B /* Build configuration list for PBXProject "RE100DashBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A0CE1928815F7E00E8771B /* Debug */,
+				A3A0CE1A28815F7E00E8771B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A0CE1B28815F7E00E8771B /* Build configuration list for PBXNativeTarget "RE100DashBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A0CE1C28815F7E00E8771B /* Debug */,
+				A3A0CE1D28815F7E00E8771B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A0CE1E28815F7E00E8771B /* Build configuration list for PBXNativeTarget "RE100DashBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A0CE1F28815F7E00E8771B /* Debug */,
+				A3A0CE2028815F7E00E8771B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3A0CE2128815F7E00E8771B /* Build configuration list for PBXNativeTarget "RE100DashBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3A0CE2228815F7E00E8771B /* Debug */,
+				A3A0CE2328815F7E00E8771B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3A0CDEF28815F7D00E8771B /* Project object */;
+}
