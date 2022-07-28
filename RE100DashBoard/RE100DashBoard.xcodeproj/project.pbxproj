@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1451D6602892BCFC00483B75 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1451D65F2892BCFC00483B75 /* HomeView.swift */; };
 		A3A0CDFB28815F7D00E8771B /* RE100DashBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0CDFA28815F7D00E8771B /* RE100DashBoardApp.swift */; };
 		A3A0CDFD28815F7D00E8771B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A0CDFC28815F7D00E8771B /* ContentView.swift */; };
 		A3A0CDFF28815F7E00E8771B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A0CDFE28815F7E00E8771B /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1451D65F2892BCFC00483B75 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A3A0CDF728815F7D00E8771B /* RE100DashBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RE100DashBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3A0CDFA28815F7D00E8771B /* RE100DashBoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RE100DashBoardApp.swift; sourceTree = "<group>"; };
 		A3A0CDFC28815F7D00E8771B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1451D65D2892BCA800483B75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1451D65E2892BCB600483B75 /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1451D65E2892BCB600483B75 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1451D65F2892BCFC00483B75 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		A3A0CDEE28815F7D00E8771B = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +111,7 @@
 		A3A0CDF928815F7D00E8771B /* RE100DashBoard */ = {
 			isa = PBXGroup;
 			children = (
+				1451D65D2892BCA800483B75 /* Views */,
 				A3A0CDFA28815F7D00E8771B /* RE100DashBoardApp.swift */,
 				A3A0CDFC28815F7D00E8771B /* ContentView.swift */,
 				A3A0CDFE28815F7E00E8771B /* Assets.xcassets */,
@@ -256,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1451D6602892BCFC00483B75 /* HomeView.swift in Sources */,
 				A3A0CDFD28815F7D00E8771B /* ContentView.swift in Sources */,
 				A3A0CDFB28815F7D00E8771B /* RE100DashBoardApp.swift in Sources */,
 			);
@@ -274,7 +294,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3A0CE1828815F7E00E8771B /* RE100DashBoardUITestsLaunchTests.swift in Sources */,
-				A3A0CE1628815F7E00E8771B /* RE100DashBoardUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
